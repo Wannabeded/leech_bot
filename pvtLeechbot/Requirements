@@ -1,4 +1,11 @@
-python-telegram-bot==20.7
-httpx==1.8.3
-requests==2.32.1
-python-dotenv==1.0.0
+# Core Telegram Bot Framework
+python-telegram-bot==22.5
+
+# Primary HTTP client for synchronous downloading (used in downloader.py)
+requests==2.32.5
+
+# Asynchronous HTTP client (used as a dependency for python-telegram-bot or aiohttp)
+aiohttp==3.13.1
+
+# For loading .env file configuration (used in config/settings.py)
+python-dotenv==1.1.1
