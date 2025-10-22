@@ -1,0 +1,13 @@
+Requirements for the File Leech Bot
+
+Core Telegram bot framework (v20+ async)
+
+python-telegram-bot
+
+HTTP library used for synchronous downloading
+
+requests
+
+Used by config/settings.py to load environment variables from a .env file
+
+python-dotenv
